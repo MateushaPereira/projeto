@@ -1,0 +1,35 @@
+@media (min-width: 992px) {
+    .navbar{
+        justify-content: center;
+    }
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: center;
+    }
+    
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 0;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+.center{
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.a{
+    text-decoration: none;
+    color: #333;
+}
+.a:hover{
+    text-decoration: none;
+    color: #333;
+}
